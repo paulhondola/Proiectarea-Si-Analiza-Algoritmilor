@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A07C3BAF-DA19-4F37-AB71-27E9A53EFAEF}|lab2.vcxproj|C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab2\\lab2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A07C3BAF-DA19-4F37-AB71-27E9A53EFAEF}|lab2.vcxproj|solutionrelative:lab2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2723F041-1116-484A-AB73-F8F3A3216037}|lab2.vcxproj|C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab2\\lab2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2723F041-1116-484A-AB73-F8F3A3216037}|lab2.vcxproj|solutionrelative:lab2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,9 +24,9 @@
               "RelativeDocumentMoniker": "lab2.c",
               "ToolTip": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab2\\lab2.c",
               "RelativeToolTip": "lab2.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJEAAAAAAAAAAAA0wJsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-02-27T20:21:51.318Z",
+              "WhenOpened": "2025-03-06T14:43:27.357Z",
               "EditorCaption": ""
             }
           ]

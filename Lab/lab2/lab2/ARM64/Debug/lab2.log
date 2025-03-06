@@ -1,2 +1,3 @@
 ﻿  lab2.c
+C:\Users\paulh\Faculta\Proiectarea-Si-Analiza-Algoritmilor\Lab\lab2\lab2.c(162,16): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
   lab2.vcxproj -> C:\Users\paulh\Faculta\Proiectarea-Si-Analiza-Algoritmilor\Lab\lab2\ARM64\Debug\lab2.exe

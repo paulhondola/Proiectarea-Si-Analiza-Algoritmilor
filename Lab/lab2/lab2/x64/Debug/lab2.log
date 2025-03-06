@@ -1,0 +1,4 @@
+﻿  lab2.c
+C:\Users\paulh\Faculta\Proiectarea-Si-Analiza-Algoritmilor\Lab\lab2\lab2.c(21,5): warning C4013: '_CrtSetDbgFlags' undefined; assuming extern returning int
+lab2.obj : error LNK2019: unresolved external symbol _CrtSetDbgFlags referenced in function main
+C:\Users\paulh\Faculta\Proiectarea-Si-Analiza-Algoritmilor\Lab\lab2\x64\Debug\lab2.exe : fatal error LNK1120: 1 unresolved externals

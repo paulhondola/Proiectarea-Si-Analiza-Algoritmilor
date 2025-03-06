@@ -1,0 +1,4 @@
+﻿  lab2.c
+C:\Users\paulh\Faculta\Proiectarea-Si-Analiza-Algoritmilor\Lab\lab2\lab2.c(159,22): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\paulh\Faculta\Proiectarea-Si-Analiza-Algoritmilor\Lab\lab2\lab2.c(162,16): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  lab2.vcxproj -> C:\Users\paulh\Faculta\Proiectarea-Si-Analiza-Algoritmilor\Lab\lab2\Debug\lab2.exe

@@ -2,7 +2,6 @@
 #include<stdint.h>
 #include "Bib.h"
 
-
 TTree InitTree(TTree a) {
 	for (int i = 0; i < MAXNODES; i++) {
 		a.nodes[i].parent = 0;
@@ -32,7 +31,7 @@ void printArray(TTree a) {
 	for (uint8_t i = 0; i <= a.size; i++) {
 		printf("%5d ", a.nodes[i].parent);
 	}
-	printf("\n------------------------------------");
+	printf("\n-----------------------------------------------------------");
 }
 
 void printNode(TNode node, char* message) {
@@ -46,12 +45,14 @@ TNodeRef getRoot(TTree a) {
 	if (a.size < 1) return 0;
 	return 1;
 }
+
 TNodeRef findNodeIndex(TTree a, TNode node) {
 	for (uint8_t i = 0; i <= a.size; i++) {
 		if (a.nodes[i].key == node.key && a.nodes[i].parent == node.parent) return i;
 	}
 	return 0;
 }
+
 TNodeRef firstChild(TTree a, TNodeRef index) {
 	if (!index) return 0;
 	for (uint8_t i = 1; i <= a.size; i++) {
@@ -110,7 +111,7 @@ void preOrderDo(TTree a, TNodeRef root) {
 	if (fc) preOrderDo(a, fc);
 
 	TNodeRef rs = fc;
-	while ((rs = rightSibling(a, rs))) {
+	while ((rs = rightSibling(a, rs)) != 0) {
 		preOrderDo(a, rs);
 	}
 }

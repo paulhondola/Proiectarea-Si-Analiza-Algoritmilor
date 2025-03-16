@@ -1,40 +1,48 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdint.h>
 #include "Bib.h"
 #include <stdlib.h>
 
-TTree bulkInsert(TTree a) {
-	a = InsertNode(a, 0, 1);
-	a = InsertNode(a, 1, 2);
-	a = InsertNode(a, 1, 3);
-	a = InsertNode(a, 1, 4);
-	a = InsertNode(a, 2, 5);
-	a = InsertNode(a, 2, 6);
-	a = InsertNode(a, 4, 7);
+TTree bulkInsert(TTree a, FILE *f) {
+	
+	int x = 0, y = 0;
+
+    while (fscanf(f, "%d %d", &y, &x) == 2) { // Ensures two values are read
+        printf("Inserting %d %d\n", x, y);
+        a = InsertNode(a, x, y);  // Ensure InsertNode correctly returns the new tree structure
+    }
 
 	return a;
 }
 
 int main(int argc, char** argv) {
 
+	if (argc != 2) {
+		printf("Usage: %s <input_file>\n", argv[0]);
+		return 1;
+	}
+
+	FILE* f = fopen(argv[1], "r");
+	if (f == NULL) {
+		printf("Could not open file %s\n", argv[1]);
+		return 2;
+	}
+
 	TTree a = { 0 };
 	a = InitTree(a);
-	printArray(a);
-	a = bulkInsert(a);
-	//a = InsertNode(a, 0,1);
+	a = bulkInsert(a, f);
+
 	printArray(a);
 
-	TNodeRef n = parent(a, 5);
-	printNode(nodeByRef(a, n), "Parent: ");
-	TNodeRef fc = firstChild(a, 1);
-	printNode(nodeByRef(a, fc), "First Child: ");
-	TNodeRef rs = rightSibling(a, 5);
-	printNode(nodeByRef(a, rs), "Right sibling of 5: ");
-
+	printf("\npreOrder:\n");
 	preOrder(a);
-	printf("\n inOrder: \n");
+	printf("\ninOrder:\n");
 	inOrder(a);
-	printf("\n postOrder: \n");
+	printf("\npostOrder:\n");
 	postOrder(a);
+	
+	fclose(f);
+
 	return 0;
 }

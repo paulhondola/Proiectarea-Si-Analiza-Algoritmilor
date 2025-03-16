@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE0262D5-992B-4801-8F01-42493B87797F}|lab3.vcxproj|C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3\\lab3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BE0262D5-992B-4801-8F01-42493B87797F}|lab3.vcxproj|solutionrelative:lab3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BE0262D5-992B-4801-8F01-42493B87797F}|lab3.vcxproj|C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3\\Bib.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BE0262D5-992B-4801-8F01-42493B87797F}|lab3.vcxproj|solutionrelative:Bib.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0262D5-992B-4801-8F01-42493B87797F}|lab3.vcxproj|C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3\\lab3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BE0262D5-992B-4801-8F01-42493B87797F}|lab3.vcxproj|solutionrelative:lab3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE0262D5-992B-4801-8F01-42493B87797F}|lab3.vcxproj|C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3\\Bib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -32,35 +32,38 @@
               "RelativeDocumentMoniker": "Bib.h",
               "ToolTip": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3\\Bib.h",
               "RelativeToolTip": "Bib.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAA3wCgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-13T14:08:56.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Bib.c",
-              "DocumentMoniker": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3\\Bib.c",
-              "RelativeDocumentMoniker": "Bib.c",
-              "ToolTip": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3\\Bib.c",
-              "RelativeToolTip": "Bib.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-03-13T14:08:09.35Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Bib.c",
+              "DocumentMoniker": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3\\Bib.c",
+              "RelativeDocumentMoniker": "Bib.c",
+              "ToolTip": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3\\Bib.c",
+              "RelativeToolTip": "Bib.c",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-13T14:08:09.35Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "lab3.c",
               "DocumentMoniker": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3\\lab3.c",
               "RelativeDocumentMoniker": "lab3.c",
               "ToolTip": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3\\lab3.c",
               "RelativeToolTip": "lab3.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-03-13T14:06:42.112Z",
+              "IsPinned": true,
               "EditorCaption": ""
             }
           ]

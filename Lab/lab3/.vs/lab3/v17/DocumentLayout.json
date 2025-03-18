@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BE0262D5-992B-4801-8F01-42493B87797F}|lab3.vcxproj|C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3\\Bib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BE0262D5-992B-4801-8F01-42493B87797F}|lab3.vcxproj|solutionrelative:Bib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BE0262D5-992B-4801-8F01-42493B87797F}|lab3.vcxproj|C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3\\Bib.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BE0262D5-992B-4801-8F01-42493B87797F}|lab3.vcxproj|solutionrelative:Bib.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE0262D5-992B-4801-8F01-42493B87797F}|lab3.vcxproj|C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3\\lab3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BE0262D5-992B-4801-8F01-42493B87797F}|lab3.vcxproj|solutionrelative:lab3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE0262D5-992B-4801-8F01-42493B87797F}|lab3.vcxproj|C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3\\Bib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BE0262D5-992B-4801-8F01-42493B87797F}|lab3.vcxproj|solutionrelative:Bib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Bib.h",
               "DocumentMoniker": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3\\Bib.h",
               "RelativeDocumentMoniker": "Bib.h",
               "ToolTip": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3\\Bib.h",
               "RelativeToolTip": "Bib.h",
-              "ViewState": "AgIAABUAAAAAAAAAAAA3wCgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-13T14:08:56.256Z",
               "IsPinned": true,
@@ -40,13 +40,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Bib.c",
               "DocumentMoniker": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3\\Bib.c",
               "RelativeDocumentMoniker": "Bib.c",
               "ToolTip": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3\\Bib.c",
               "RelativeToolTip": "Bib.c",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-03-13T14:08:09.35Z",
               "IsPinned": true,
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "lab3.c",
               "DocumentMoniker": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3\\lab3.c",
               "RelativeDocumentMoniker": "lab3.c",
@@ -63,8 +63,7 @@
               "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-03-13T14:06:42.112Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             }
           ]
         }

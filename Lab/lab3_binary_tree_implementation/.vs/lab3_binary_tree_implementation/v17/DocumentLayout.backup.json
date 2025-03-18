@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3_binary_tree_implementation\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{015BD2AC-7611-43BA-9E91-451724D844E5}|lab3_binary_tree_implementation.vcxproj|C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3_binary_tree_implementation\\Bib.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{015BD2AC-7611-43BA-9E91-451724D844E5}|lab3_binary_tree_implementation.vcxproj|solutionrelative:Bib.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{015BD2AC-7611-43BA-9E91-451724D844E5}|lab3_binary_tree_implementation.vcxproj|C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3_binary_tree_implementation\\lab3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{015BD2AC-7611-43BA-9E91-451724D844E5}|lab3_binary_tree_implementation.vcxproj|solutionrelative:lab3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{015BD2AC-7611-43BA-9E91-451724D844E5}|lab3_binary_tree_implementation.vcxproj|C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3_binary_tree_implementation\\Bib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{015BD2AC-7611-43BA-9E91-451724D844E5}|lab3_binary_tree_implementation.vcxproj|solutionrelative:Bib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{015BD2AC-7611-43BA-9E91-451724D844E5}|lab3_binary_tree_implementation.vcxproj|C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3_binary_tree_implementation\\Bib.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{015BD2AC-7611-43BA-9E91-451724D844E5}|lab3_binary_tree_implementation.vcxproj|solutionrelative:Bib.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Bib.h",
               "DocumentMoniker": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3_binary_tree_implementation\\Bib.h",
               "RelativeDocumentMoniker": "Bib.h",
@@ -34,31 +34,30 @@
               "RelativeToolTip": "Bib.h",
               "ViewState": "AgIAACQAAAAAAAAAAAAAAC8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-17T13:43:25.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T13:43:25.484Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Bib.c",
               "DocumentMoniker": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3_binary_tree_implementation\\Bib.c",
               "RelativeDocumentMoniker": "Bib.c",
-              "ToolTip": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3_binary_tree_implementation\\Bib.c",
-              "RelativeToolTip": "Bib.c",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAAAI0AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3_binary_tree_implementation\\Bib.c*",
+              "RelativeToolTip": "Bib.c*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-03-17T13:43:15.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "lab3.c",
               "DocumentMoniker": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3_binary_tree_implementation\\lab3.c",
               "RelativeDocumentMoniker": "lab3.c",
               "ToolTip": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3_binary_tree_implementation\\lab3.c",
               "RelativeToolTip": "lab3.c",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-03-17T13:43:13.947Z",
               "EditorCaption": ""

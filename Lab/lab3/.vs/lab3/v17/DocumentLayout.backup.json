@@ -35,8 +35,7 @@
               "ViewState": "AgIAABUAAAAAAAAAAAA3wCgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-13T14:08:56.256Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -44,9 +43,9 @@
               "Title": "Bib.c",
               "DocumentMoniker": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3\\Bib.c",
               "RelativeDocumentMoniker": "Bib.c",
-              "ToolTip": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3\\Bib.c*",
-              "RelativeToolTip": "Bib.c*",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAA6AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab3\\Bib.c",
+              "RelativeToolTip": "Bib.c",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAE4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-03-13T14:08:09.35Z",
               "IsPinned": true,
@@ -63,8 +62,7 @@
               "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-03-13T14:06:42.112Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             }
           ]
         }

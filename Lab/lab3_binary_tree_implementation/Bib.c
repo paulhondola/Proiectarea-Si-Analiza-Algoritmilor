@@ -67,90 +67,15 @@ void convertNode(TTree* ob, TTree fcrs, TNodeRef fcrsNode, TNodeRef obNode) {
 	}
 }
 
-// convert a FCRS tree to an ordered binary tree
-TTree convertFCRStoOBTree(TTree fcrs) {
-	if (fcrs.size < 1) return fcrs; // Empty tree case
+// convert FCRS to OB tree
 
-	TTree ob = { 0 }; // Initialize new ordered binary tree
-	ob.size = 1; // Root node starts at index 1
-	TNodeRef root = getRoot(fcrs);
-	// Start conversion from root (node 1)
-	convertNode(&ob, fcrs, root, root);
+TTree convertFCRStoOBtree(TTree tree, TNodeRef root) {
+	TTree ob = { 0 };
+	ob = InitTree(ob);
+	
 
 	return ob;
 }
-
-TTree insertBST(TTree* ob, TNodeRef root, TKey key) {
-	if (ob->size >= MAXNODES - 1) { // Prevent overflow
-		printf("Tree is full, cannot insert more nodes.\n");
-		return *ob;
-	}
-
-	if (root == 0) { // Root case
-		ob->size++;  // Increment size
-		TNodeRef newNodeIdx = ob->size;
-		ob->nodes[newNodeIdx].key = key;
-		ob->nodes[newNodeIdx].firstChild = 0;
-		ob->nodes[newNodeIdx].rightSibling = 0;
-		return *ob;
-	}
-
-	// Determine where to insert
-	if (key < ob->nodes[root].key) {
-		if (ob->nodes[root].firstChild == 0) {
-			ob->size++;
-			ob->nodes[root].firstChild = ob->size;
-			ob->nodes[ob->size].key = key;
-			ob->nodes[ob->size].firstChild = 0;
-			ob->nodes[ob->size].rightSibling = 0;
-		}
-		else {
-			*ob = insertBST(ob, ob->nodes[root].firstChild, key);
-		}
-	}
-	else {
-		if (ob->nodes[root].rightSibling == 0) {
-			ob->size++;
-			ob->nodes[root].rightSibling = ob->size;
-			ob->nodes[ob->size].key = key;
-			ob->nodes[ob->size].firstChild = 0;
-			ob->nodes[ob->size].rightSibling = 0;
-		}
-		else {
-			*ob = insertBST(ob, ob->nodes[root].rightSibling, key);
-		}
-	}
-
-	return *ob;
-}
-
-
-void convertFCRStoBSTRecursive(TTree* bst, TTree fcrs, TNodeRef fcrsNode) {
-	if (fcrsNode == 0) return; // Base case
-
-	// Insert the current node into the BST
-	*bst = insertBST(bst, getRoot(fcrs), fcrs.nodes[fcrsNode].key);
-
-	// Recursively process first child (ensures left-side processing)
-	convertFCRStoBSTRecursive(bst, fcrs, fcrs.nodes[fcrsNode].firstChild);
-
-	// Recursively process right sibling (ensures right-side processing)
-	convertFCRStoBSTRecursive(bst, fcrs, fcrs.nodes[fcrsNode].rightSibling);
-}
-
-
-TTree convertFCRStoBST(TTree fcrs) {
-	if (fcrs.size < 1) return fcrs; // Handle empty tree case
-
-	TTree bst = { 0 }; // Initialize new binary tree
-	bst.size = 0;
-
-	// Start recursive conversion from root (node 1)
-	convertFCRStoBSTRecursive(&bst, fcrs, 1);
-
-	return bst;
-}
-
 
 void printArray(TTree a) {
 	printf("\nIndex:\n");

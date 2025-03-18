@@ -16,6 +16,12 @@ typedef struct {
 	uint8_t size; //tree size = number of nodes in the tree	
 }TTree;
 
+typedef struct OBNODE {
+	struct OBNode* left;
+	struct OBNode* right;
+	TKey key;
+} *OBNode;
+
 TTree InitTree(TTree a);
 
 TTree InsertNode(TTree a, TNodeRef  parent, TKey key);
@@ -43,6 +49,3 @@ void postOrder(TTree a);
 void preOrderBinary(TTree a);
 void inOrderBinary(TTree a);
 void postOrderBinary(TTree a);
-
-TTree convertFCRStoOBTree(TTree fcrs);
-TTree convertFCRStoBST(TTree fcrs);

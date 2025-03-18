@@ -1,2 +1,10 @@
-﻿  lab3.c
+﻿  Bib.c
+  lab3.c
+C:\Users\paulh\Faculta\Proiectarea-Si-Analiza-Algoritmilor\Lab\lab3_binary_tree_implementation\lab3.c(37,12): warning C4133: '=': incompatible types - from 'OBNode' to 'OBNode *'
+C:\Users\paulh\Faculta\Proiectarea-Si-Analiza-Algoritmilor\Lab\lab3_binary_tree_implementation\lab3.c(42,13): warning C4133: '=': incompatible types - from 'OBNode' to 'OBNode *'
+C:\Users\paulh\Faculta\Proiectarea-Si-Analiza-Algoritmilor\Lab\lab3_binary_tree_implementation\lab3.c(50,16): warning C4133: 'function': incompatible types - from 'OBNode *' to 'OBNode'
+C:\Users\paulh\Faculta\Proiectarea-Si-Analiza-Algoritmilor\Lab\lab3_binary_tree_implementation\lab3.c(52,16): warning C4133: 'function': incompatible types - from 'OBNode *' to 'OBNode'
+C:\Users\paulh\Faculta\Proiectarea-Si-Analiza-Algoritmilor\Lab\lab3_binary_tree_implementation\lab3.c(79,30): warning C4013: 'getRoot' undefined; assuming extern returning int
+  Generating Code...
+C:\Users\paulh\Faculta\Proiectarea-Si-Analiza-Algoritmilor\Lab\lab3_binary_tree_implementation\Bib.c(196,1): warning C4716: 'deleteNode': must return a value
   lab3_binary_tree_implementation.vcxproj -> C:\Users\paulh\Faculta\Proiectarea-Si-Analiza-Algoritmilor\Lab\lab3_binary_tree_implementation\ARM64\Debug\lab3_binary_tree_implementation.exe

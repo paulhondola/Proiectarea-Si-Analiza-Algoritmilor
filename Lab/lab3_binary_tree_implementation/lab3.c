@@ -50,6 +50,13 @@ void printOBTree(OBNode ob) {
 	printOBTree(ob->right);
 }
 
+void freeOBTree(OBNode ob) {
+	if (ob == NULL) return;
+	freeOBTree(ob->left);
+	freeOBTree(ob->right);
+	free(ob);
+}
+
 int main(int argc, char** argv) {
 
 	if (argc != 2) {
@@ -79,6 +86,7 @@ int main(int argc, char** argv) {
 	// Print the OB tree
 	printf("\nOB Tree:\n");
 	printOBTree(ob);
+	freeOBTree(ob);
 
 	fclose(f);
 

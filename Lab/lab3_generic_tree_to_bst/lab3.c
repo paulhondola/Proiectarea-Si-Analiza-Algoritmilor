@@ -30,17 +30,8 @@ bstNode createBSTNode(TKey key) {
 }
 
 bstNode insert_into_bst(bstNode root, TKey key) {
-	if (root == NULL) {
-		bstNode newNode = (bstNode)malloc(sizeof(struct BSTNODE));
-		if (newNode == NULL) {
-			printf("Memory allocation failed!\n");
-			exit(1);
-		}
-		newNode->key = key;
-		newNode->left = NULL;
-		newNode->right = NULL;
-		return newNode;
-	}
+	if (root == NULL)
+		return createBSTNode(key);
 
 	if (key < root->key) {
 		root->left = insert_into_bst(root->left, key);
@@ -57,11 +48,17 @@ bstNode convert_generic_to_bst(TTree tree) {
 
 	bstNode root = NULL;
 
-	for (uint8_t i = 1; i <= tree.size; i++) {
+	for (uint8_t i = 1; i <= tree.size; i++)
 		root = insert_into_bst(root, tree.nodes[i].key);
-	}
 
 	return root;
+}
+
+void freeBST(bstNode root) {
+	if (root == NULL) return;
+	freeBST(root->left);
+	freeBST(root->right);
+	free(root);
 }
 
 int main(int argc, char** argv) {
@@ -95,6 +92,8 @@ int main(int argc, char** argv) {
 	// Print the BST
 	printf("\nBST:\n");
 	printBST(root);
+
+	freeBST(root);
 	
 	fclose(f);
 

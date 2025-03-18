@@ -155,7 +155,7 @@ void postOrder(TTree a) {
 	postOrderDo(a, getRoot(a));
 }
 
-void printBST(bstNode root) {
+ void printBST(bstNode root) {
 	if (root == NULL) return;
 	printBST(root->left);
 	printf("%d, ", root->key);

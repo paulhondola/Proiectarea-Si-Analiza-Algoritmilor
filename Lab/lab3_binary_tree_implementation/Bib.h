@@ -1,34 +1,34 @@
-#include<stdint.h>
+#include <stdint.h>
 
 #define MAXNODES 100
 
 typedef uint8_t TKey;
 
 typedef struct {
-	uint8_t firstChild, rightSibling;
-	TKey key;
-}TNode;
+  uint8_t firstChild, rightSibling;
+  TKey key;
+} TNode;
 
 typedef uint8_t TNodeRef;
 
 typedef struct {
-	TNode nodes[MAXNODES];
-	uint8_t size; //tree size = number of nodes in the tree	
-}TTree;
+  TNode nodes[MAXNODES];
+  uint8_t size; // tree size = number of nodes in the tree
+} TTree;
 
 typedef struct OBNODE {
-	struct OBNode* left;
-	struct OBNode* right;
-	TKey key;
+  struct OBNODE *left;
+  struct OBNODE *right;
+  TKey key;
 } *OBNode;
 
 TTree InitTree(TTree a);
 
-TTree InsertNode(TTree a, TNodeRef  parent, TKey key);
+TTree InsertNode(TTree a, TNodeRef parent, TKey key);
 
 void printArray(TTree a);
 
-void printNode(TNode node, char* message);
+void printNode(TNode node, char *message);
 
 TNodeRef parent(TTree a, TNodeRef noderef);
 

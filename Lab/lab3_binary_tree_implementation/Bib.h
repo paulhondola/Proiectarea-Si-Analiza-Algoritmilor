@@ -40,6 +40,8 @@ TNodeRef firstChild(TTree a, TNodeRef noderef);
 
 TNodeRef rightSibling(TTree a, TNodeRef noderef);
 
+TNodeRef getRoot(TTree a);
+
 TTree deleteNode(TTree a, TNodeRef noderef);
 
 void preOrder(TTree a);

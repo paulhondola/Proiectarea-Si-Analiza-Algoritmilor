@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab7\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE0EA62-9632-4F16-BA7F-D51FF9C6A5C9}|lab7.vcxproj|C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab7\\arborib.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9BE0EA62-9632-4F16-BA7F-D51FF9C6A5C9}|lab7.vcxproj|solutionrelative:arborib.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE0EA62-9632-4F16-BA7F-D51FF9C6A5C9}|lab7.vcxproj|C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab7\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9BE0EA62-9632-4F16-BA7F-D51FF9C6A5C9}|lab7.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE0EA62-9632-4F16-BA7F-D51FF9C6A5C9}|lab7.vcxproj|C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab7\\arborib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9BE0EA62-9632-4F16-BA7F-D51FF9C6A5C9}|lab7.vcxproj|solutionrelative:arborib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "arborib.c",
+              "DocumentMoniker": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab7\\arborib.c",
+              "RelativeDocumentMoniker": "arborib.c",
+              "ToolTip": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab7\\arborib.c",
+              "RelativeToolTip": "arborib.c",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAJAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-04-10T11:25:28.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab7\\main.c",
+              "RelativeDocumentMoniker": "main.c",
+              "ToolTip": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab7\\main.c",
+              "RelativeToolTip": "main.c",
+              "ViewState": "AgIAADEAAAAAAAAAAAAxwEoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-04-10T11:05:14.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "arborib.h",
+              "DocumentMoniker": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab7\\arborib.h",
+              "RelativeDocumentMoniker": "arborib.h",
+              "ToolTip": "C:\\Users\\paulh\\Faculta\\Proiectarea-Si-Analiza-Algoritmilor\\Lab\\lab7\\arborib.h",
+              "RelativeToolTip": "arborib.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-10T11:07:30.164Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

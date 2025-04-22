@@ -93,7 +93,7 @@ void get_search_performance() {
 	// Calculate elapsed time in seconds
 	elapsedTime = (double)(end.QuadPart - start.QuadPart) / frequency.QuadPart;
 
-	printf("Insert time: %.6f microseconds\n", elapsedTime * 1000000);
+	printf("Search time: %.6f microseconds\n", elapsedTime * 1000000);
 	printf("Numarul cautat: %d\n", x);
 	printf("Numar pasi cautare: %d\n", nr_pasi_cautare);
 }

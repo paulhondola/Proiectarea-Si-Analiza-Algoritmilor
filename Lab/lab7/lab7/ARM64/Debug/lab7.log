@@ -1,2 +1,4 @@
-﻿  arborib.c
+﻿  main.c
+C:\Users\paulh\Faculta\Proiectarea-Si-Analiza-Algoritmilor\Lab\lab7\main.c(88,14): warning C4013: 'cautare' undefined; assuming extern returning int
+C:\Users\paulh\Faculta\Proiectarea-Si-Analiza-Algoritmilor\Lab\lab7\main.c(103,8): warning C4013: 'time' undefined; assuming extern returning int
   lab7.vcxproj -> C:\Users\paulh\Faculta\Proiectarea-Si-Analiza-Algoritmilor\Lab\lab7\ARM64\Debug\lab7.exe

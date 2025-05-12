@@ -4,18 +4,18 @@
 #define MAX_STACK_SIZE 128
 
 typedef struct {
-	int data[MAX_STACK_SIZE];
-	int top;
-} stack_t;
+  int data[MAX_STACK_SIZE];
+  int top;
+} stack;
 
 // init, pop, push, peek, is_empty, is_full
 
-void init_stack(stack_t* stack);
-void push(stack_t* stack, int value);
-int pop(stack_t* stack);
-int peek_stack(stack_t* stack);
-int is_empty_stack(stack_t* stack);
-int is_full_stack(stack_t* stack);
-void print_stack(stack_t* stack);
+void init_stack(stack *);
+void push(stack *, int);
+int pop(stack *);
+int peek_stack(stack *);
+int is_empty_stack(stack *);
+int is_full_stack(stack *);
+void print_stack(stack *);
 
 #endif

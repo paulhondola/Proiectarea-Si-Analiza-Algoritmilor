@@ -1,3 +1,4 @@
+#include <math.h>
 #define _CRT_SECURE_NO_WARNINGS
 #include "queue.h"
 #include "stack.h"
@@ -127,6 +128,84 @@ int shortest_path(int matrix[][MAX_MATRIX_SIZE], int size, int start, int end) {
   return path[end];
 }
 
+void dfs_no_lib(int matrix[][MAX_MATRIX_SIZE], int size, int start) {
+  int visited[MAX_MATRIX_SIZE] = {0};
+  int stack[MAX_MATRIX_SIZE] = {0};
+  int top = 0;
+
+  stack[top++] = start;
+  visited[start] = 1;
+
+  while (top) {
+    // pop the last node
+    int current = stack[--top];
+    printf("%d ", current);
+
+    // add all the nodes next to current
+    for (int i = size; i >= 1; i--) {
+      if (matrix[current][i] && !visited[i]) {
+        stack[top++] = i;
+        visited[i] = 1;
+      }
+    }
+  }
+
+  printf("\n");
+}
+
+void bfs_no_lib(int matrix[][MAX_MATRIX_SIZE], int size, int start) {
+  int queue[MAX_MATRIX_SIZE] = {0};
+  int visited[MAX_MATRIX_SIZE] = {0};
+  int front = 0, rear = 0;
+
+  queue[rear++] = start;
+  visited[start] = 1;
+
+  while (front != rear) {
+    int current = queue[front++];
+    printf("%d ", current);
+
+    for (int i = 1; i <= size; i++) {
+      if (matrix[current][i] && !visited[i]) {
+        queue[rear++] = i;
+        visited[i] = 1;
+      }
+    }
+  }
+
+  printf("\n");
+}
+
+int conex_structures(int matrix[][MAX_MATRIX_SIZE], int size) {
+  int count = 0;
+
+  int visited[MAX_MATRIX_SIZE] = {0};
+
+  for (int i = 1; i <= size; i++) {
+    if (!visited[i]) {
+      count++;
+      // BFS or DFS to mark all nodes in this component
+      queue q;
+      init_queue(&q);
+      enqueue(&q, i);
+      visited[i] = 1;
+
+      while (!is_empty_queue(&q)) {
+        int current = dequeue(&q);
+
+        for (int j = 1; j <= size; j++) {
+          if (matrix[current][j] && !visited[j]) {
+            enqueue(&q, j);
+            visited[j] = 1;
+          }
+        }
+      }
+    }
+  }
+
+  return count;
+}
+
 int main(void) {
   FILE *f = fopen("date.txt", "r");
 
@@ -146,6 +225,8 @@ int main(void) {
 
   printf("\n");
 
+  /*
+
   // BFS starting from node 1
   printf("BFS starting from node 1:\n");
   bfs(matrix, size, 1);
@@ -158,6 +239,17 @@ int main(void) {
   // Shortest path from node 1 to node 5
   printf("\nShortest path from node 1 to node 5:\n");
   printf("%d\n", shortest_path(matrix, size, 1, 5));
+
+  // Number of connected components
+  printf("Number of connected components: ");
+  int components = conex_structures(matrix, size);
+  printf("%d\n", components);
+  */
+
+  dfs(matrix, size, 1);
+  dfs_no_lib(matrix, size, 1);
+  bfs(matrix, size, 1);
+  bfs_no_lib(matrix, size, 1);
 
   return 0;
 }

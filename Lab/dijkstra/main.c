@@ -123,6 +123,7 @@ void dijkstra(graph *g, char start_node) {
     // update the distance and previous node
     for (int i = 0; i < g->node_count; i++) {
       if (!visited[i] && g->matrix[next][i] != 0 &&
+          g->matrix[next][i] != INT_MAX &&
           dist[i] > dist[next] + g->matrix[next][i]) {
         dist[i] = dist[next] + g->matrix[next][i];
         prev[i] = next;

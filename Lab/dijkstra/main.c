@@ -89,19 +89,25 @@ void print_graph(const graph *g) {
 }
 
 void dijkstra(graph *g, char start_node) {
+  // get starting node index
   int start = get_index(g, start_node);
+
+  // set up distance, visited and previous arrays
   int dist[MAX_GRAPH_SIZE];
   bool visited[MAX_GRAPH_SIZE] = {false};
   int prev[MAX_GRAPH_SIZE];
 
+  // initialize distances to infinity and previous nodes to -1
   for (int i = 0; i < g->node_count; i++) {
     dist[i] = INT_MAX;
     prev[i] = -1;
   }
 
+  // distance to the starting node is 0
   dist[start] = 0;
 
-  for (int count = 0; count < g->node_count - 1; count++) {
+  // loop through all nodes
+  for (int count = 0; count < g->node_count; count++) {
     int next = -1;
     int min_dist = INT_MAX;
 
